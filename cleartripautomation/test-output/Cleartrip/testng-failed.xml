@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Cleartrip]" parallel="tests">
+  <test name="Cleartrip(failed)" parallel="tests">
+    <classes>
+      <class name="runner.testrunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.testrunner -->
+    </classes>
+  </test> <!-- Cleartrip(failed) -->
+</suite> <!-- Failed suite [Cleartrip] -->
